@@ -1,0 +1,2 @@
+00:00  INFO: [kryonet] Connecting: /213.73.99.162:33900/33901
+00:01  INFO: [kryonet] Connection 3 connected: /213.73.99.162
