@@ -1,7 +1,0 @@
-00:00  INFO: [kryonet] Server opened.
-00:09  INFO: [kryonet] Connection 1 connected: /127.0.0.1
-00:18  INFO: [kryonet] Connection 1 disconnected.
-00:25  INFO: [kryonet] Connection 2 connected: /127.0.0.1
-00:47  INFO: [kryonet] Connection 3 connected: /127.0.0.1
-01:10  INFO: [kryonet] Connection 2 disconnected.
-01:11  INFO: [kryonet] Connection 3 disconnected.

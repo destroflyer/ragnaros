@@ -18,7 +18,7 @@ public class ArcaneSacrifice extends SpellCard{
                 description = new Description("Arcane Sacrifice", "Deal 2 damage to an allied monster and 4 damage to an enemy monster.");
                 cost = new Cost(new ManaAmount(Mana.WHITE, 3));
                 spellParameterFormat = new SpellParameterFormat(){{
-                    add("Choose the allied target to heal.", SpellParameterFormat_Entry.Type.MONSTER, SpellParameterFormat_Entry.Owner.ALLIED);
+                    add("Choose the allied target to damage.", SpellParameterFormat_Entry.Type.MONSTER, SpellParameterFormat_Entry.Owner.ALLIED);
                     add("Choose the enemy target to damage.", SpellParameterFormat_Entry.Type.MONSTER, SpellParameterFormat_Entry.Owner.ENEMY);
                 }};
             }

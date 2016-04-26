@@ -15,14 +15,14 @@ import ragnaros.game.buffs.*;
 public class Leokk extends MonsterCard{
 
     public Leokk(){
-        description = new Description("Leokk", "Other friendly monsters have +1 attack.");
+        description = new Description("Leokk");
         manaTypes = new Mana[]{Mana.GREEN};
         tribes = new Tribe[]{Tribe.BEAST};
         castCost = new Cost(new ManaAmount(Mana.GREEN, 3));
         attackDamage = 2;
         setLifepoints(4);
         addMechanics(new OtherFriendlyMinionsAura(new AdditiveAttackDamageBuff(1)){{
-                description = new Description(Description.DEFAULT_TITLE, "Adjacent monsters have +1 attack.");
+                description = new Description(Description.DEFAULT_TITLE, "Other friendly monsters have +1 attack.");
             }
             
             @Override
